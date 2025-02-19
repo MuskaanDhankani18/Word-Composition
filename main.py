@@ -9,7 +9,7 @@ def word_is_compounded(word, wordset):
     return False
 
 def longest_compounded_words(words):
-    wordset = set(words)  # Store words in a set for quick lookup
+    wordset = set(words)  
     longest = ""
     second_longest = ""
 
@@ -23,20 +23,16 @@ def longest_compounded_words(words):
 
     return longest, second_longest
 
-# Read words from input files
 def read_words_from_file(filename):
     with open(filename, 'r') as f:
         return [line.strip() for line in f.readlines()]
 
-# Main function to process the files
 def main():
     start_time = time.time()
 
-    # Read words from files
     words1 = read_words_from_file("Input_01.txt") 
     words2 = read_words_from_file("Input_02.txt")
 
-    # Find the longest and second longest compounded words
     longest1, second_longest1 = longest_compounded_words(words1)
     longest2, second_longest2 = longest_compounded_words(words2)
 
