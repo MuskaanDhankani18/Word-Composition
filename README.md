@@ -29,6 +29,7 @@ Create two text files:
     Each file should contain a sorted list of words, one per line (lowercase, no spaces).
 
 3. Run the Program
-Save the provided Python script (main.py) and execute it using:
 
-python main.py
+   Save the provided Python script (main.py) and execute it using:
+
+  ### python main.py
