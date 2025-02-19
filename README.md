@@ -5,7 +5,7 @@ This program reads two input files (Input_01.txt and Input_02.txt), each contain
 * The second longest compounded word.
 * The execution time taken to process the files.
 
-Design Decisions & Approach
+## Design Decisions & Approach
 
 Efficient Data Storage:
 The program uses a set to store words for O(1) lookup time, improving efficiency.
@@ -15,3 +15,19 @@ Each word is checked to see if it can be formed by combining other words in the 
 
 Performance Optimization:
 The algorithm ensures fast processing even for large files (100,000+ words).
+
+## Steps to Execute:
+1. Install Python (if not installed)
+Ensure you have Python installed (version 3.x recommended).
+
+2. Prepare Input Files
+Create two text files:
+
+i. Input_01.txt
+ii. Input_02.txt
+Each file should contain a sorted list of words, one per line (lowercase, no spaces).
+
+3. Run the Program
+Save the provided Python script (main.py) and execute it using:
+
+python main.py
