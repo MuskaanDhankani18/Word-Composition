@@ -32,4 +32,4 @@ Create two text files:
 
    Save the provided Python script (main.py) and execute it using:
 
-  ### python main.py
+    * python main.py
