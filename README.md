@@ -5,15 +5,15 @@ This program reads two input files (Input_01.txt and Input_02.txt), each contain
 * The second longest compounded word.
 * The execution time taken to process the files.
 
-## Design Decisions & Approach
+## Design & Approach
 
-Efficient Data Storage:
+### Efficient Data Storage:
 The program uses a set to store words for O(1) lookup time, improving efficiency.
 
-Recursive Breakdown:
+### Recursive Breakdown:
 Each word is checked to see if it can be formed by combining other words in the set.
 
-Performance Optimization:
+### Performance Optimization:
 The algorithm ensures fast processing even for large files (100,000+ words).
 
 ## Steps to Execute:
