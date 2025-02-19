@@ -23,8 +23,8 @@ Ensure you have Python installed (version 3.x recommended).
 2. Prepare Input Files
 Create two text files:
 
-  i. Input_01.txt
-  ii. Input_02.txt
+  * Input_01.txt
+  * Input_02.txt
 Each file should contain a sorted list of words, one per line (lowercase, no spaces).
 
 3. Run the Program
